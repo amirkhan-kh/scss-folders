@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: slategray;
+}
+
+.container {
+  width: 1250px;
+  margin: 0 auto;
+  padding: 0 50px;
+}
+
+.nav {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav span {
+  text-transform: uppercase;
+}
+.nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 30px;
+}
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+}
+.nav a:hover {
+  text-decoration: underline;
+  text-shadow: 0 0 10px #fff;
+}/*# sourceMappingURL=style.css.map */
